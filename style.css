@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-light .navbar-brand,
+.navbar-light .nav-link,
+.navbar-light .navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.active-filter-nav-link {
+    color: black !important;
+}
+
+.navbutton {
+    border: 2px;
+    background: transparent;
+    width: 100%;
+    transition: 1s;
+    color: white;
+}
+
+/* Carousel */
+.bgimage-1 {
+    background-image: url(images/garden.jpg);
+    background-position: center;
+}
+
+.bgimage-2 {
+    background-image: url(images/twilips-flowers.webp);
+    background-position: left;
+}
+
+.bgimage-3 {
+    background-image: url(images/rose-flowers.jpg);
+    background-position: center;
+}
+
+.bgimage-4 {
+    background-image: url(images/cherry-blossoms-flowers.jpg);
+    background-position: center;
+}
+
+.bgimage-5 {
+    background-image: url(images/sun-flowers.jpg);
+    background-position: center;
+}
+
+.carouselimage {
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-heading {
+    color: white;
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+ul li a {
+    margin-right: 20px;
+}
